@@ -1,0 +1,9 @@
+template: Hello, %s!
+defaultName: Stranger
+
+server:
+  rootPath: /api/
+logging:
+  level: INFO
+  loggers:
+    io.dropwizard: DEBUG
